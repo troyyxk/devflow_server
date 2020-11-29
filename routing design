@@ -1,0 +1,15 @@
+AUTHENTICATION /api = session checker = if login continue else require login  
+
+GET MEMBER /api/member/?memberID retrive user info
+PUT MEMBER /api/member    member info in reqbody
+POST MEMBER /api/member/     update info
+DELETE MEMBER /api/member
+
+///
+
+function addTask();
+- GET team
+- team.taskList.add(task)
+- POST TEAM
+
+
