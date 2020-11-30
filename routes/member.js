@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { Member } = require("../models/Member.js");
 
+// localhost:8080/api/member/1
 router.get("/:id", async (req, res) => {
     const memberId = req.params.id;
     Member.findById(memberId)

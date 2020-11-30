@@ -48,6 +48,7 @@ router.put("/signup", async (req, res) => {
 
 
 router.post("/login", async (req, res) => {
+    console.log("Attempt login")
     const { userName, password } = req.body;
     if (!userName || !password) {
         console.log(userName, password)
