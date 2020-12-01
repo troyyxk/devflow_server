@@ -2,7 +2,7 @@ const Task = require("./models/Task");
 const Team = require("./models/Team");
 const Member = require("./models/Member");
 const Notification = require("./models/Notification");
-const Company = require("./models/Notification");
+const Company = require("./models/Company");
 
 // add data
 async function createCompanies() {
